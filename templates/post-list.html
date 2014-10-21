@@ -1,0 +1,16 @@
+<ul class="post-list">
+    $for(posts)$
+        <li class="work">
+              <a href="$url$" title="$title$">
+                <img class="post-image"
+                     style="background-color: $mattecolor$; width: $listwidth$; padding: $listmattesize$"
+                     src="$listimage$"
+                     alt="$title$">
+              </a>
+            </div>
+            <div class="title">
+              $title$
+            </div>
+        </li>
+    $endfor$
+</ul>
