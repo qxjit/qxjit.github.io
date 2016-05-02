@@ -98,53 +98,49 @@ ul {
   text-align: left;
 }
 
-input {
-  display: none;
-}
-
 p {
   border-radius: 25px;
   color: #222;
 }
 
-.hasjs .carousel {
+.carousel {
   margin-top: 15vh;
 }
 
-.hasjs .section {
+.section {
   display: inline-block;
 }
 
-.hasjs .section .content {
+.section .content {
   overflow: hidden;
   text-align: center;
 }
 
-.hasjs .section .content > * {
+.section .content > * {
   padding: 10px;
   margin: 0;
 }
 
-.hasjs .section.current .content {
+.section.current .content {
   visibility: visible;
 }
 
 @media (min-width: 1280px) {
-  .hasjs .section h2, .hasjs .section .content {
+  .section h2, .section .content {
     vertical-align: middle;
     display: inline-block;
   }
 
-  .hasjs .section .content {
+  .section .content {
     width: 0;
     transition: width 0.5s;
   }
 
-  .hasjs .section .content > * {
+  .section .content > * {
     width: 280px;
   }
 
-  .hasjs .section.current .content {
+  .section.current .content {
     width: 300px;
   }
 }
@@ -162,21 +158,21 @@ p {
     font-size: 36px;
   }
 
-  .hasjs .section h2, .hasjs .section .content {
+  .section h2, .section .content {
     vertical-align: middle;
     display: inline-block;
   }
 
-  .hasjs .section .content {
+  .section .content {
     width: 0;
     transition: width 0.5s;
   }
 
-  .hasjs .section .content > * {
+  .section .content > * {
     width: 150px;
   }
 
-  .hasjs .section.current .content {
+  .section.current .content {
     width: 170px;
   }
 }
@@ -193,20 +189,20 @@ p {
     margin-right: auto;
   }
 
-  .hasjs .section {
+  .section {
     display: block;
   }
 
-  .hasjs .section h2, .hasjs .section .content {
+  .section h2, .section .content {
     display: block;
   }
 
-  .hasjs .section .content {
+  .section .content {
     max-height: 0;
     transition: max-height 0.5s;
   }
 
-  .hasjs .section.current .content {
+  .section.current .content {
     max-height: 500px;
   }
 }
