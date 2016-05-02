@@ -1,0 +1,34 @@
+.carousel {
+  margin: 20px;
+}
+
+.section h2 {
+  display: block;
+  border-style: none;
+}
+
+.section h2:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+.section {
+  max-width: 80vw;
+  display: block;
+  margin: auto;
+}
+
+.section .content {
+  display: block;
+  max-height: auto;
+  width: auto;
+}
+
+.section .content > * {
+  margin: auto;
+  width: auto;
+}
+
+ul {
+  text-align: center;
+}

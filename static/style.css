@@ -98,10 +98,6 @@ ul {
   text-align: left;
 }
 
-input {
-  display: none;
-}
-
 p {
   border-radius: 25px;
   color: #222;
@@ -109,7 +105,6 @@ p {
 
 .carousel {
   margin-top: 15vh;
-  display: block;
 }
 
 .section {
