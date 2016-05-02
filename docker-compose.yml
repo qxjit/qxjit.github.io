@@ -1,0 +1,18 @@
+server:
+  image: publysher/hugo:latest
+  ports:
+    - 1313:1313
+  volumes:
+    - .:/usr/share/blog
+  command: ["hugo", "server", "--bind=0.0.0.0", "--watch=true", "--destination=.build"]
+
+
+bg_art:
+  image: haskell:7.10.3
+
+  volumes:
+    - .:/work
+
+  working_dir: /work
+  command: bash
+
